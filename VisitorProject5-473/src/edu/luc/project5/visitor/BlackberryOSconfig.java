@@ -4,7 +4,7 @@ public class BlackberryOSconfig implements CellPhoneVisitor{
 	 
     @Override
     public void visit(SprintCellPhone cellPhone) {
-        System.out.println("SprintPhone Configuration for Blaclberry has been completed !!\n");
+        System.out.println("SprintPhone Configuration for Blackberry has been completed !!\n");
     }
  
     @Override

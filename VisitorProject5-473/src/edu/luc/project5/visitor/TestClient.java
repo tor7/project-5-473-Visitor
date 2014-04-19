@@ -5,7 +5,7 @@ import java.util.*;
 import junit.framework.TestCase;
 
 
-public class TestCellPhoneVisitorPattern extends TestCase
+public class TestClient extends TestCase
 {
     private BlackberryOSconfig blackberryConf;
     private AndroidOSConfig androidConf;
@@ -23,19 +23,19 @@ public class TestCellPhoneVisitorPattern extends TestCase
         verizonPhone = new VerizonCellPhone();
     }
 
-    public void testsprintPhone()
+    public void testSprintPhone()
     {
         sprintPhone.accept(blackberryConf);
         sprintPhone.accept(androidConf);
     }
 
-    public void testattPhone()
+    public void testAttPhone()
     {
         attPhone.accept(blackberryConf);
         attPhone.accept(androidConf);
     }
 
-    public void testverizonPhone()
+    public void testVerizonPhone()
     {
         verizonPhone.accept(blackberryConf);
         verizonPhone.accept(androidConf);
