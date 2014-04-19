@@ -1,4 +1,4 @@
-package com.project5;
+package edu.luc.project5.decorator;
 
 public class Client {
 	
@@ -14,7 +14,7 @@ public class Client {
 		
 		// ILLUSTRATION 2: A standard computer with no customizations
 		Computer stdComputer = new StandardComputer();
-		System.out.println("Stanard Computer Description: " + stdComputer.getDescription());
+		System.out.println("Standard Computer Description: " + stdComputer.getDescription());
 		System.out.println("Standard Computer Cost: $" + stdComputer.getCost());
 		
 		

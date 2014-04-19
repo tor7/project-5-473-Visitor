@@ -1,4 +1,4 @@
-package com.project5;
+package edu.luc.project5.decorator;
 
 public interface Computer {
 	
